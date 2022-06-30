@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d7e7ddb8;
+}
+#header {
+    background-color: #0dcaf0;
+}
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.navbar-brand img:hover{
+    box-shadow: 5px 5px 15px black;
+}
+.nav-link{
+    font-weight: 550;
+}
+#running-text {
+    background-color: chartreuse;
+    padding: 5px 0px;
+}
+#running-text h1{
+    text-transform: uppercase;
+}
+.mark-right-text{
+    margin-left: 1000px;
+}
+
+#slider{
+    background-image: url('image/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item img {
+    height: 50vh;
+}
+.carousel-inner {
+    margin-top: 74px;
+}
+#rules h1{
+    margin-top: 20px;
+}
+.rules-span {
+    width: 85px;
+    height: 5px;
+    display: inline-block;
+    background-color: red;
+    transition:.6s;
+}
+.rules-span:hover{
+    width: 100%;
+    cursor: pointer;
+}
+.rules-first-heading {
+    border-bottom: 2px solid #1a1414;
+    margin-bottom: 20px;
+}
+
+
+
+
+.acordion-heading {
+    border-bottom: 2px solid #569efe;
+}
+.accordion-button {
+    color: #c70fc1;
+    background: #98e2ff;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.fh3{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.my-table{
+   
+}
+tr td a{
+    text-decoration: none;
+    color:rgb(230, 222, 222);
+    font-weight: 650;
+}
+.my-footer{
+    background-color: black;
+    padding: 10px 0px;
+    border-top: 1px solid rgb(73, 72, 72);
+}
+.py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 0px !important;
+}
+
+
+
+/* card css start here  */
+
+/* show all card image  */
+.full-img-wapper{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    display: none;
+}
+.full-img-wapper img{
+    width:70%;
+    height: 70vh;
+    border-radius: 20px;
+    transition: .7s;
+}
+.full-img-wapper img:hover{
+    box-shadow: 5px 5px 15px red;
+    transform: scale(1.2);
+}
+.close-full-img{
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+.close-full-img:hover{
+    color: green;
+}
+
+/* show all card image  */
+
+
+.single-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.my-card{
+    width: 350px;
+    margin-top: 30px;
+}
+.card-img-wrap{
+    overflow: hidden;
+}
+.my-card img {
+    width: 100%;
+    height: 300px;
+    transition: .8s;
+}
+.my-card img:hover{
+    transform: scale(1.2) rotate(-10deg);
+
+}
+.card-text{
+    padding-left: 8px;
+}
+.more-card-btn{
+    text-align: right;
+}
+.more-card-btn button{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0px;
+    transition: .8s;
+}
+
+
+#more-card-wrapper{
+    display: none;
+    transition: .5s;
+}
+
+
+/* founder profile start here */
+
+
+.founder-profile-wrap{
+    margin-top: 100px;
+    display: block;
+}
+
+.card2{
+    width: 350px;
+    margin-top: 30px;
+    margin: auto;
+}
+.admin-heading{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    border-bottom: 2px solid gray;
+}
+
+.admin-heading2{
+    margin-top: 50px;
+    color: #c70fc1;
+    border-color: #c70fc1;
+}
+
+
+
+
+/* responsive css start here  */
+
+@media screen and (max-width:768px) {
+    .donar-heading {
+        padding-top: 28px;
+    }
+    .single-card {
+        padding: 15px;
+    }
+    .my-card {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .admin-heading {
+        font-size: 25px;
+    }
+
+   
+}
