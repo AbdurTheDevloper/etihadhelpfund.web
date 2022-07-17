@@ -117,9 +117,9 @@ tr td a{
     z-index: 9999;
     display: none;
 }
-.full-img-wapper img{
-    width:70%;
-    height: 70vh;
+.full-img-wapper img {
+    width: 50%;
+    height: 80vh;
     border-radius: 20px;
     transition: .7s;
 }
@@ -230,6 +230,11 @@ tr td a{
     .admin-heading {
         font-size: 25px;
     }
-
+    .full-img-wapper img {
+        width: 70%;
+        height: 70vh;
+        border-radius: 20px;
+        transition: .7s;
+    }
    
 }
